@@ -4,14 +4,13 @@ spring:
     url: jdbc:mysql://localhost/kiran?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password:
-welcome:
-  message: I AM DEV
   jpa:
     hibernate:
       ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
-
+welcome:
+  message: I AM DEV
 ---
 spring:
   profiles: prod
