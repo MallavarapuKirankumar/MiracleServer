@@ -1,0 +1,29 @@
+spring:
+  profiles: dev
+  datasource:
+    url: jdbc:mysql://localhost/kiran
+    username: root
+    password:
+welcome:
+  message: I AM DEV
+
+---
+spring:
+  profiles: prod
+  datasource:
+    url: jdbc:mysql://localhost/jpa
+    username: root
+    password:
+welcome:
+  message: I AM PROD
+
+---
+spring:
+  profiles: test
+  datasource:
+    url: jdbc:mysql://localhost/test
+    username: root
+    password:
+welcome:
+  message: I AM TEST
+
