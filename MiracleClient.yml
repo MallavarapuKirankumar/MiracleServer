@@ -7,7 +7,7 @@ spring:
 welcome:
   message: I AM DEV
 jpa:
-    hibernate.ddl-auto: update 
+    hibernate.ddl-auto: create-update 
     generate-ddl: true
     show-sql: true
 
