@@ -20,6 +20,10 @@ spring:
     password:
 welcome:
   message: I AM PROD
+jpa:
+    hibernate.ddl-auto: create-update 
+    generate-ddl: true
+    show-sql: true
 
 ---
 spring:
@@ -30,3 +34,7 @@ spring:
     password:
 welcome:
   message: I AM TEST
+jpa:
+    hibernate.ddl-auto: create-update 
+    generate-ddl: true
+    show-sql: true
