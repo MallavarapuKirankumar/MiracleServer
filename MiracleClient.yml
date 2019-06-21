@@ -34,10 +34,10 @@ spring:
     url: jdbc:mysql://localhost/test?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
     username: root
     password:
-welcome:
-  message: I AM TEST
   jpa:
     hibernate:
       ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
+welcome:
+  message: I AM TEST
