@@ -22,7 +22,8 @@ spring:
 welcome:
   message: I AM PROD
   jpa:
-    hibernate.ddl-auto: create-update 
+    hibernate:
+      ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
             
@@ -37,6 +38,7 @@ spring:
 welcome:
   message: I AM TEST
   jpa:
-    hibernate.ddl-auto: create-update 
+    hibernate:
+      ddl-auto: create-drop
     generate-ddl: true
     show-sql: true
